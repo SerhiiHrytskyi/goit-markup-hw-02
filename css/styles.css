@@ -1,52 +1,56 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 :root {
   --color-primary: #2e2f42;
   --color-background: #ffff;
   --color-background-brand: #f4f4fd;
   --color-ation: #4d5ae5;
   --color-ation-hover: #404bbf;
+  --color-heder-mail: #434455;
+
 }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-background);
   color: var(--color-primary);
-  font-weight: 400;
-  font-style: normal;
 }
 
 ul {
   list-style: none;
 }
 
-.link {
+/* .link {
   text-decoration: none;
+} */
+
+/* -------------LOGO----------------- */
+
+
+span.main{
+color: var(--color-ation);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+font-family: 'Raleway';
 }
 
-.header {
+span.second{
+color: var(--color-primary);
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
 }
-
-.header-navigation {
+span.second-footer{
+  color: var(--color-background-brand);
 }
-
 .header-logo:focus {
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 .header-logo:hover {
   color: var(--color-ation);
 }
 
-.header-list {
-}
+
 
 .header-item .link:hover {
   color: var(--color-ation-hover);
@@ -59,7 +63,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   color: var(--color-primary);
   font-weight: 500;
 }
@@ -69,8 +72,9 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-  color: #434455;
+  color: var(--color-heder-mail);
+  text-decoration: none;
+
 }
 .header-mail:hover {
   color: var(--color-ation-hover);
@@ -83,8 +87,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-  color: #434455;
+  color: var(--color-heder-mail);
+  text-decoration: none;
 }
 .header-tel:hover {
   color: var(--color-ation-hover);
@@ -95,17 +99,14 @@ ul {
 
 /* ------section HERO------- */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--color-primary);
 }
 .hero-title {
   color: var(--color-background-brand);
-  font-style: normal;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
-}
-
-.list {
 }
 
 .hero-button {
@@ -127,15 +128,6 @@ ul {
 
 /* ----- section main ------- */
 
-.fichers {
-}
-
-.fichers-list {
-}
-
-.fichers-item {
-}
-
 .fichers-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -148,11 +140,9 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-heder-mail);
 }
 
-.doing {
-}
 
 .doing-title {
   font-weight: 700;
@@ -162,14 +152,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
-.doing-list {
-}
-
-.doing-item {
-}
 
 .team {
   background-color: var(--color-background-brand);
@@ -182,17 +167,10 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
-.team-list {
-}
 
-.team-item {
-}
-
-.team-picture {
-}
 
 .team-subtitle {
   ont-weight: 500;
@@ -200,7 +178,7 @@ ul {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-primary);
 }
 
 .team-text {
@@ -208,7 +186,7 @@ ul {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-heder-mail);
 }
 
 .footer {
@@ -229,7 +207,25 @@ ul {
 
 /* ------------- PROPERTIS ----------------- */
 
-.buton {
+
+.buttons-item .link{
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-ation);
+  background-color: var(--color-background-brand);
+
+}
+.buttons-item .link:hover{
+  color: var(--color-white);
+  background-color: var(--color-ation-hover);
+
+}
+.buttons-item .link:focus{
+  color: var(--color-white);
+  background-color: var(--color-ation);
+
 }
 
 .visually-hidden {
@@ -246,32 +242,16 @@ ul {
 }
 
 .buton .buttons-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-ation);
   cursor: pointer;
 }
-.buttons-item:hover {
+/* .buttons-item:hover {
   color: var(--color-white);
   background-color: var(--color-ation-hover);
-}
-
-.examples {
-}
-
-.examples-title {
-}
-
-.examples-list {
-}
-
-.examples-item {
-}
-
-.examples-picture {
-}
+} */
 
 .examples-subtitle {
   font-weight: 500;
@@ -279,13 +259,11 @@ ul {
   line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 .examples-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-
-  /* color: #43445; */
-}
+  color: var(--color-heder-mail);
