@@ -1,0 +1,291 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #2e2f42;
+  --color-background: #ffff;
+  --color-background-brand: #f4f4fd;
+  --color-ation: #4d5ae5;
+  --color-ation-hover: #404bbf;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo:focus {
+  color: #2e2f42;
+}
+.header-logo:hover {
+  color: var(--color-ation);
+}
+
+.header-list {
+}
+
+.header-item .link:hover {
+  color: var(--color-ation-hover);
+}
+.header-item .link:focus {
+  color: var(--color-primary);
+}
+
+.header-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+/* ---------Kontakt------------- */
+.header-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #434455;
+}
+.header-mail:hover {
+  color: var(--color-ation-hover);
+}
+.header-mail:focus {
+  color: var(--color-primary);
+}
+
+.header-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #434455;
+}
+.header-tel:hover {
+  color: var(--color-ation-hover);
+}
+.header-tel:focus {
+  color: var(--color-primary);
+}
+
+/* ------section HERO------- */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: var(--color-background-brand);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.list {
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-background);
+  background-color: var(--color-ation);
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--color-ation-hover);
+}
+
+/* ----- section main ------- */
+
+.fichers {
+}
+
+.fichers-list {
+}
+
+.fichers-item {
+}
+
+.fichers-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.fichers-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.doing {
+}
+
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.doing-list {
+}
+
+.doing-item {
+}
+
+.team {
+  background-color: var(--color-background-brand);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-picture {
+}
+
+.team-subtitle {
+  ont-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background-color: var(--color-primary);
+}
+
+.footer-logo {
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* -------------PAIGE SECOND------------- */
+
+/* ------------- PROPERTIS ----------------- */
+
+.buton {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.buton .buttons-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-ation);
+  cursor: pointer;
+}
+.buttons-item:hover {
+  color: var(--color-white);
+  background-color: var(--color-ation-hover);
+}
+
+.examples {
+}
+
+.examples-title {
+}
+
+.examples-list {
+}
+
+.examples-item {
+}
+
+.examples-picture {
+}
+
+.examples-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+
+.examples-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+  /* color: #43445; */
+}
