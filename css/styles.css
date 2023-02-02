@@ -5,6 +5,7 @@
   --color-ation: #4d5ae5;
   --color-ation-hover: #404bbf;
   --color-heder-mail: #434455;
+  --color-footer-text: #e7e9fc;
 }
 
 body {
@@ -40,7 +41,7 @@ ul {
 }
 
 .header-logo:focus {
-  color: var(--color-primary);
+  color: var(--color-ation-hover);
 }
 .header-logo:hover {
   color: var(--color-ation);
@@ -50,7 +51,7 @@ ul {
   color: var(--color-ation-hover);
 }
 .header-item .link:focus {
-  color: var(--color-primary);
+  color: var(--color-ation-hover);
 }
 
 .header-link {
@@ -65,6 +66,9 @@ ul {
 }
 
 /* ---------Kontakt------------- */
+address {
+  font-style: normal;
+}
 .header-mail {
   font-size: 16px;
   line-height: 1.5;
@@ -76,7 +80,7 @@ ul {
   color: var(--color-ation-hover);
 }
 .header-mail:focus {
-  color: var(--color-primary);
+  color: var(--color-ation-hover);
 }
 
 .header-tel {
@@ -90,7 +94,7 @@ ul {
   color: var(--color-ation-hover);
 }
 .header-tel:focus {
-  color: var(--color-primary);
+  color: var(--color-ation-hover);
 }
 
 /* ------section HERO------- */
@@ -205,7 +209,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--color-footer-text);
 }
 
 /* -------------PAIGE SECOND------------- */
@@ -222,11 +226,11 @@ ul {
   cursor: pointer;
 }
 .buttons-item .link:hover {
-  color: var(--color-white);
+  color: var(--color-background);
   background-color: var(--color-ation-hover);
 }
 .buttons-item .link:focus {
-  color: var(--color-white);
+  color: var(--color-background);
   background-color: var(--color-ation);
 }
 
