@@ -1,6 +1,6 @@
 /* Body */
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-style: normal;
   background-color: #ffffff;
@@ -73,7 +73,7 @@ body {
 
 /* Buton Text*/
 .section-button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
   font-size: 16px;
