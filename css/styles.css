@@ -21,8 +21,8 @@ body {
 .page-accent {
   color: #2e2f42;
 }
-/* Heder Nav */
 
+/* Heder Nav */
 .page .page-nav {
   color: #2e2f42;
   font-size: 16px;
@@ -30,7 +30,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
 }
-
 .page .page-nav:hover {
   color: #404bbf;
 }
@@ -40,8 +39,8 @@ body {
 .page-nav:active {
   color: #404bbf;
 }
-/* Heder adress */
 
+/* Heder adress */
 .info {
   font-style: normal;
 }
@@ -51,7 +50,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
 }
-
 .page-adress:hover {
   color: var(--OCEAN, #404bbf);
 }
@@ -75,7 +73,7 @@ body {
 
 /* Buton Text*/
 .section-button {
-  font-family: Roboto sans-serif;
+  font-family: "Roboto" sans-serif;
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
   font-size: 16px;
