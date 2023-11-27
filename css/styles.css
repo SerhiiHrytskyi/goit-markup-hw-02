@@ -1,0 +1,133 @@
+/* Body */
+body {
+  font-family: "Roboto" sans-serif;
+  color: #434455;
+  font-style: normal;
+}
+
+/* Heder Logo*/
+
+.page-logo .page-two {
+  font-family: Raleway;
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+}
+.page-logo .page-accent {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+}
+
+/* Heder Nav */
+
+.page .page-nav {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.page .page-nav:hover {
+  color: #404bbf;
+}
+.page .page-nav:focus {
+  color: #404bbf;
+}
+
+/* Heder adress */
+
+.page-adress {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.page-adress:hover {
+  color: var(--OCEAN, #404bbf);
+}
+
+/* Heder 1 */
+
+.section-title {
+  background-color: #2e2f42;
+  color: var(--WHITE, #fff);
+  width: 496px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+}
+
+/* Buton Text*/
+
+.section-button {
+  color: var(--WHITE, #fff);
+  background-color: #4d5ae5;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+/* Buton */
+.section-button:hover {
+  background-color: #404bbf;
+}
+
+.section-button:active {
+  background-color: #404bbf;
+}
+
+.team {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+}
+.footer .two {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+  height: 21px;
+}
+.footer .accent {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 44px;
+  height: 21px;
+}
+.footer .footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
